@@ -11,9 +11,9 @@ require 'ecdsa'   # private key to public key
 # |- m/2147483650
 # ...
 
-parent_chain_code  = "463223aac10fb13f291a1bc76bc26003d98da661cb76df61e750c139826dea8b"
-parent_private_key = "f79bb0d317b310b261a55a8ab393b4c8a1aba6fa4d08aef379caba502d5d67f9"
-i = 2147483648 # child index number (must between 2**31 and 2**32-1)
+parent_chain_code  = "aa274c0fea984574f19fdea0aa19541ceb16165f49ff3694969320424060bae2"
+parent_private_key = "4743bae8512cc178df55d1b79bff1bb82aaf849ee09f7671827852b59f0ba471"
+i = 2147483648   # child index number (must between 2**31 and 2**32-1)
 
 # Prepare data and key to put through HMAC function
 data = ["00"].pack("H*") + [parent_private_key].pack("H*") + [i].pack("N")  # 0x00 + private_key + index

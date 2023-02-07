@@ -4,7 +4,7 @@ require 'ecdsa'   # private key to public key
 # ----
 # Seed
 # ----
-seed = "67f93560761e20617de26e0cb84f7234aaf373ed2e66295c3d7397e6d7ebe882ea396d5d293808b0defd7edd2babd4c091ad942e6a9351e6d075a29d4df872af"
+seed = "a015da51aaea184f4d8e9c6d67cfff029008bebc495fd5125baee5ff9a6201df6c020f403b7d6b01c8b90ce1b9c9b8d6565b0fecde3a68ac0c86d807c5a0621e"
 puts "seed: #{seed}"
 puts
 

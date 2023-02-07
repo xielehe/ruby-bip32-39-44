@@ -10,10 +10,10 @@ require 'ecdsa'   # private key to public key
 # |- m/2
 # ...
 
-parent_chain_code  = "463223aac10fb13f291a1bc76bc26003d98da661cb76df61e750c139826dea8b"
-parent_private_key = "f79bb0d317b310b261a55a8ab393b4c8a1aba6fa4d08aef379caba502d5d67f9"
-parent_public_key  = "0252c616d91a2488c1fd1f0f172e98f7d1f6e51f8f389b2f8d632a8b490d5f6da9"
-i = 0 # child index number
+parent_chain_code  = "8b8b401d5e48e8c8ac1de1f5616cd68b18a6494afa1d7f52d38267b012b3b8d6"
+parent_private_key = "d3ba84ebbc7fe777fa945fb6e81528f9da5639a47371d872ceb22f66b0e4810f"
+parent_public_key  = "03b31438df24ba685e0ef4088c92b21e2efdb090a2829598fb21276ba1b5aacbe5"
+i = 1 # child index number
 
 # Prepare data and key to put through HMAC function
 data = [parent_public_key].pack("H*") + [i].pack("N") # public key + index

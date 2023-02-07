@@ -3,7 +3,7 @@
 # -------------------
 require 'openssl'
 
-mnemonic = "pistol scene liar animal cart thunder pen process void job regret hold"
+mnemonic = "evoke anxiety humble credit travel unveil like cash oyster trade network pumpkin"
 passphrase = "" # can leave this blank
 puts "passphrase: #{passphrase}"
 
